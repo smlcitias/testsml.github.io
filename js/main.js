@@ -25,10 +25,13 @@ function main() {
 
   // Add navigator listener to jump to different sections.
   let navigators = document.getElementsByClassName('change-sect');
-  let sectionArr = [document.getElementById('news'),
+  let sectionArr = [
+                    document.getElementById('news'),
                     document.getElementById('lab'),
                     document.getElementById('research'),
                     document.getElementById('publication'),
+                    document.getElementById('honors'),
+                    document.getElementById('activities'),
                     document.getElementById('contact')];
   for (let i = 0; i < navigators.length; ++i) {
     navigators[i].addEventListener('click', function() {
@@ -59,5 +62,6 @@ function main() {
       document.getElementById('publication').style.display = 'block';
     })
   }
+
 }
 main();
