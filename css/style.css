@@ -372,7 +372,7 @@ header .intro-text {
 .research-desc {
   font-size: 12pt;
   line-height: 1.5;
-  
+  text-align: justify;
 }
 
 .reference-text {
