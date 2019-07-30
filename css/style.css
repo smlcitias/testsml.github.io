@@ -26,7 +26,7 @@ h5 {
 	line-height: 20px;
 }
 p.intro {
-	font-size: 16px;
+	font-size: 30px;
 	margin: 12px 0 0;
 	line-height: 24px;
 }
@@ -175,7 +175,7 @@ hr {
   text-shadow: 2px 2px 2px #333;
 }
 .intro p {
-	font-size: 20px;
+	font-size: 40px;
 	margin-bottom: 40px;
 	margin-top: 20px;
   text-shadow: 1px 1px 1px #333;
@@ -212,6 +212,7 @@ header .intro-text {
 	display: inline-block;
   margin: 0 0 15px 0;
 }
+
 #lab p {
 	margin-top: 40px;
 	margin-bottom: 30px;
@@ -371,6 +372,7 @@ header .intro-text {
 .research-desc {
   font-size: 12pt;
   line-height: 1.5;
+  
 }
 
 .reference-text {
@@ -523,35 +525,14 @@ ol.type li a:hover {
 
 /* honors Section */
 #honors {
-	padding: 70px 0;
+	padding: 100px 0;
+	display: none;
 }
-.honors-board {
-  border-top: 1px solid #ddd;
-  border-right: 1px solid #ddd;
-  border-left: 1px solid #ddd;
-  margin: 0.5rem 3rem 1rem 3rem;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-}
-.honors-header {
-  display: block;
-  line-height: 3rem;
-  min-height: 3rem;
-  padding: 10px 1rem;
-  background-color: #fff;
-  border-bottom: 1px solid #ddd;
-  font-size: 12pt;
-}
-.honors-icon {
-  color: #333;
-  width: 2rem;
-  display: block;
-  float: left;
-  margin-right: 1rem;
-}
-.honors-time {
-  color: #888888;
- 
-}
+section.resume-section {
+	font-size: 22px;
+	line-height: 24px;　
+  }
+
 /* make honors align to center */
 .col.s3 {
   padding: 1px 0;
@@ -560,37 +541,13 @@ ol.type li a:hover {
   width: 100%;
 }
 
+
 /* activities Section */
 #activities {
 	padding: 100px 0;
+	display: none;
 }
-.activities-board {
-  border-top: 1px solid #ddd;
-  border-right: 1px solid #ddd;
-  border-left: 1px solid #ddd;
-  margin: 0.5rem 3rem 1rem 3rem;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-}
-.activities-header {
-  display: block;
-  line-height: 3rem;
-  min-height: 3rem;
-  padding: 10px 1rem;
-  background-color: #fff;
-  border-bottom: 1px solid #ddd;
-  font-size: 12pt;
-}
-.activities-icon {
-  color: #333;
-  width: 2rem;
-  display: block;
-  float: left;
-  margin-right: 1rem;
-}
-.activities-time {
-  color: #888888;
-  padding: 0 10px;
-}
+
 /* make activities align to center */
 .col.s3 {
   width: 15%;
@@ -599,108 +556,57 @@ ol.type li a:hover {
 .col.s4 {
   width: 70%;
 }
-
-section.resume-section {
-	font-size: 22px;
-	line-height: 24px;　
-  }
-
-  ::-moz-selection {
-	/* Code for Firefox */
-	background-color: #8490ff;
-	color: #fff;
-  }
-  
-  ::selection {
-	background-color: #8490ff;
-	color: #fff;
-  }
-  
-  ::-webkit-input-placeholder {
-	/* WebKit, Blink, Edge */
-	color: #777777;
-	font-weight: 300;
-  }
-  
-  :-moz-placeholder {
-	/* Mozilla Firefox 4 to 18 */
-	color: #777777;
-	opacity: 1;
-	font-weight: 300;
-  }
-  
-  ::-moz-placeholder {
-	/* Mozilla Firefox 19+ */
-	color: #777777;
-	opacity: 1;
-	font-weight: 300;
-  }
-  
-  :-ms-input-placeholder {
-	/* Internet Explorer 10-11 */
-	color: #777777;
-	font-weight: 300;
-  }
-  
-  ::-ms-input-placeholder {
-	/* Microsoft Edge */
-	color: #777777;
-	font-weight: 300;
-  }
-  
-  body {
-	color: #777777;
-	font-family: "Poppins", sans-serif;
-	font-size: 14px;
-	font-weight: 300;
-	line-height: 1.625em;
-	position: relative;
-  }
-  
-  ol, ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-  }
-  
-  select {
-	display: block;
-  }
-  
-  figure {
-	margin: 0;
-  }
-  
-  a {
-	-webkit-transition: all 0.3s ease 0s;
-	-moz-transition: all 0.3s ease 0s;
-	-o-transition: all 0.3s ease 0s;
-	transition: all 0.3s ease 0s;
-  }
-  
-  iframe {
-	border: 0;
-  }
-  
-  a, a:focus, a:hover {
-	text-decoration: none;
-	outline: 0;
-  }
-  
-  .btn.active.focus,
-  .btn.active:focus,
-  .btn.focus,
-  .btn.focus:active,
-  .btn:active:focus,
-  .btn:focus {
-	text-decoration: none;
-	outline: 0;
-  }
   
   .card-panel {
 	margin: 0;
 	padding: 60px;
   }
+  .popup{
+    width: 900px;
+    margin: auto;
+    text-align: center
+}
+.popup img{
+    width: 200px;
+    height: 200px;
+    cursor: pointer
+}
+.show{
+    z-index: 999;
+    display: none;
+}
+.show .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.66);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.show .img-show{
+    width: 600px;
+    height: 400px;
+    background: #FFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden
+}
+.img-show span{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 99;
+    cursor: pointer;
+}
+.img-show img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 
 /* Contact Section */
 #contact {
