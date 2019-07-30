@@ -112,7 +112,7 @@ hr {
 	color: 	#0066FF;
 	background-color: transparent;
     border: none;
-    padding: 15px 32px;
+    padding: px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -139,7 +139,7 @@ hr {
 	color: #555;
 	background-color: transparent;
 	border-color: #777;
-	padding: 14px 20px;
+	padding: px 20px;
 	margin: 0;
 	font-size: 16px;
 	border-radius: 0;
@@ -165,13 +165,12 @@ hr {
 	-o-background-size: cover;
 }
 .section-title.center {
-	padding: 10px 0 40px 0;
+	padding: 10px 0 10px 0;
 }
 .intro h1 {
-	font-size: 60px;
+	font-size: 100px;
 	font-weight: 600;
 	letter-spacing: 2px;
-	margin-bottom: 20px;
 	color: #e5e5e5;
   text-shadow: 2px 2px 2px #333;
 }
@@ -250,14 +249,14 @@ header .intro-text {
   animation: animateleft 1s;
   width: 90%;
   margin: 2% auto;
-  float: left;
+  float: center;
 }
 .slide-btn {
   text-align: center;
   width: 5%;
   float: left;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   /* FIXME seems there's a bug on chrome ios float, hard fixed here */
   .people-slide, .alumni-slide {
     margin-left: 7vw;
@@ -296,7 +295,7 @@ header .intro-text {
   background-color: Transparent;
   border: none;
   outline: none;
-  margin-top: 70px;
+  margin-top: 50px;
   user-select: none;
   font-size: 16pt;
 }
@@ -337,12 +336,12 @@ header .intro-text {
   padding: 1px 0;
 }
 .col.s4 {
-  width: 70%;
+  width: 100%;
 }
 /* Research Section */
 #research {
 	padding: 100px 0;
-  display: none;
+    display: none;
 }
 .research {
   padding-bottom: 80px;
@@ -524,7 +523,7 @@ ol.type li a:hover {
 
 /* honors Section */
 #honors {
-	padding: 100px 0;
+	padding: 70px 0;
 }
 .honors-board {
   border-top: 1px solid #ddd;
@@ -551,15 +550,14 @@ ol.type li a:hover {
 }
 .honors-time {
   color: #888888;
-  padding: 0 10px;
+ 
 }
 /* make honors align to center */
 .col.s3 {
-  width: 15%;
   padding: 1px 0;
 }
 .col.s4 {
-  width: 70%;
+  width: 100%;
 }
 
 /* activities Section */
@@ -603,8 +601,8 @@ ol.type li a:hover {
 }
 
 section.resume-section {
-	padding-bottom: 5rem !important;
-	font-size: 20px;
+	font-size: 22px;
+	line-height: 24px;　
   }
 
   ::-moz-selection {
@@ -815,7 +813,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	color: #000;
 }
 @media screen and (max-width: 700px) {
-  #lab, #news, #research, #publication, #contact {
+  #lab, #news, #research, #publication, #honors, #activities, #contact {
     padding: 50px 0;
   }
 }

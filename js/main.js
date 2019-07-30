@@ -26,6 +26,7 @@ function main() {
   // Add navigator listener to jump to different sections.
   let navigators = document.getElementsByClassName('change-sect');
   let sectionArr = [
+                    
                     document.getElementById('news'),
                     document.getElementById('lab'),
                     document.getElementById('research'),
@@ -61,7 +62,7 @@ function main() {
       document.getElementById('news').style.display = 'none';
       document.getElementById('publication').style.display = 'block';
     })
-  }
-
+}
+ 
 }
 main();
