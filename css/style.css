@@ -348,7 +348,7 @@ header .intro-text {
   padding-bottom: 80px;
 }
 .research-img {
-  max-height: 	400px;
+  max-height: 400px;
   max-width: 100%;
   height: auto;
   width: auto;
@@ -370,7 +370,7 @@ header .intro-text {
   color: #555;
 }
 .research-desc {
-  font-size: 12pt;
+  font-size: 14pt;
   line-height: 1.5;
   text-align: justify;
 }
