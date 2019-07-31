@@ -199,25 +199,26 @@ header .intro-text {
 .section-subtitle hr {
   width: 50%;
 }
-#lab .lab-text {
+.lab-text {
 	margin-left: 10px;
 	text-align: justify;
     text-justify:inter-ideograph;
   padding: 0 0 60px 0;
 }
-#lab img {
-	border-radius: 50%;
-	width: 10vw;
-	height: 10vw;
-	display: inline-block;
-  margin: 0 0 15px 0;
-}
 
-#lab p {
+
+.lab p {
 	margin-top: 40px;
 	margin-bottom: 30px;
 	line-height: 22px;
 }
+.row img {
+
+	height: 50;
+	width: 50;
+	margin-top: 10%;
+	border: 1px solid darkgrey;
+  }
 .people-col {
   width: 25%;
   margin-left: auto;
