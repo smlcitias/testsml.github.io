@@ -14,17 +14,18 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/publication.css">
   <script type="text/javascript">
- 
-
-    if(window.innerWidth && window.innerWidth <= 480){
-     
-    
-    document.location.href="http://bio-asplab.citi.sinica.edu.tw/testsml.github.io/";
-     
-    
+    function checkserAgent(){
+    var userAgentInfo=navigator.userAgent;
+    var userAgentKeywords=new Array(“Android", “iPhone" ,"SymbianOS", “Windows Phone", “iPad", “iPod", “MQQBrowser");
+    var flag=false;
+    if(userAgentInfo.indexOf(“Windows NT")==-1){
+    flag=true;
     }
-     
-    
+    return flag;
+    }
+    if(checkserAgent()){
+    document.location.href="http://bio-asplab.citi.sinica.edu.tw/testsml.github.io/";
+    }
     </script>
 </head>
 
