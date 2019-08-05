@@ -1297,8 +1297,16 @@ let papers = [{
     "name": "Refined WaveNet Vocoder for Variational Autoencoder Based Voice Conversion.",
     "author": "W.-C. Huang, Y.-C. Wu, H.-T. Hwang, P. L. Tobing, T. Hayashiy, K. Kobayashi, T. Toda, Y. Tsao, H.-M. Wang,",
     "conference": "European Signal Processing Conference (EUSIPCO)",
+  }, {
+    "imgPath": "img/conference/Wen-Chin Huang ISCA SSW 10.png",
+    "filePath": "paper/conference/Wen-Chin Huang ISCA SSW 10.pdf",
+    "year": 2019,
+    "name": "GeneralizationofSpectrumDifferentialbasedDirectWaveformModiﬁcation forVoiceConversion .",
+    "author": "W.-C. Huang, Y.-C. Wu, K. Kobayashi, Y.-H. Peng, H.-T. Hwang2, P. L. Tobing, Y. Tsao, H.-M. Wang and T. Toda",
+    "conference": " ISCA SSW 10",
   }
-];
+
+
 
 function showPaper() {
   let shows = document.getElementsByClassName("showpaper");
