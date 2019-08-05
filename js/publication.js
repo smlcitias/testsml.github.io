@@ -1305,6 +1305,7 @@ let papers = [{
     "author": "W.-C. Huang, Y.-C. Wu, K. Kobayashi, Y.-H. Peng, H.-T. Hwang2, P. L. Tobing, Y. Tsao, H.-M. Wang and T. Toda",
     "conference": " ISCA SSW 10",
   }
+]
 
 
 
