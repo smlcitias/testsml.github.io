@@ -7561,7 +7561,7 @@ h1, h2, h3, h4, h5,
    }
   .hero-wrap .forth {
     width: 20%;
-    height: 750px; }
+    height: 200px; }
     @media (max-width: 900px) {
       .hero-wrap .forth {
         width: 0%; } }
@@ -7603,7 +7603,7 @@ h1, h2, h3, h4, h5,
             .hero-wrap .forth .text .desc .subheading {
               color: #fff; }
             .hero-wrap .forth .text .desc h1, .hero-wrap .forth .text .desc h2 {
-              color: #000000; } }
+              color: #ffffff; } }
       .hero-wrap .forth .text .subheading {
         font-size: 14px;
         font-weight: 600;
@@ -7631,10 +7631,10 @@ h1, h2, h3, h4, h5,
         line-height: 1.2; }
         @media (max-width: 991.98px) {
           .hero-wrap .forth .text h1 {
-            font-size: 50px; } }
+            font-size: 80px;
+            color: #ffffff; } }
       .hero-wrap .forth .text h2 {
-        font-size: 26.5px;
-        font-weight: 600;
+        font-size: 60px;
         color: #ffffff; }
       .hero-wrap .forth .text .btn-custom {
         position: relative;
@@ -7695,7 +7695,7 @@ h1, h2, h3, h4, h5,
 
 
 .hero-wrap-2 {
-  height: 650px;
+  height: 300px;
   
   position: relative; }
   .hero-wrap-2 .overlay {
@@ -7708,7 +7708,7 @@ h1, h2, h3, h4, h5,
     opacity: .2; }
 
 .text-bread {
-  height: 650px; }
+  height: 300px; }
   .text-bread .text .bread {
     font-weight: 800;
     font-size: 60px;
@@ -8409,7 +8409,8 @@ textarea.form-control {
   font-weight: 700; }
   @media (max-width: 767.98px) {
     .heading-section h2 {
-      font-size: 28px; } }
+      font-size: 28px;
+    color: #0066FF; } }
 
 .heading-section h3 {
   font-size: 20px;
