@@ -7970,15 +7970,15 @@ h1, h2, h3, h4, h5,
 
 .services-wrap {
   display: block;
-  width: 120%;
-  margin-bottom: 40px; 
+  width: 100%;
+  margin-bottom: 40px;
 }
   .services-wrap .icon {
     line-height: 1.3;
     position: relative;
     width: 80px;
     height: 80px;
-    background: #000000;
+    background: #ffffff;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -7989,7 +7989,7 @@ h1, h2, h3, h4, h5,
     -ms-transition: all 0.3s ease;
     transition: all 0.3s ease; }
     .services-wrap .icon span {
-      font-size: 40px;
+      font-size: 60px;
       color: #fff; }
   .services-wrap .media-body {
     width: calc(100% - 80px); }
@@ -7997,7 +7997,12 @@ h1, h2, h3, h4, h5,
       font-weight: 500;
       text-transform: uppercase;
       letter-spacing: 1px;
-      font-size: 18px; }
+      font-size: 24px; }
+      .services-wrap .media-body p {
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 18px; }
   .services-wrap:hover .icon {
     background: #fcd307; }
     .services-wrap:hover .icon span {
