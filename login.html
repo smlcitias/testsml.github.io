@@ -24,7 +24,22 @@
     
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<script language=javascript>
+			function toopen(){
+				if(document.getElementById("password").value=="Bioasp"){
+					document.location="resources.html";
+					   return true;
+					}else{
+					alert("密碼錯誤，請再輸入一次！")
+					return false;
+					}
+				}
+			</script>
+
+
+
   </head>
   <body>
     
@@ -36,12 +51,12 @@
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	        	<li class="nav-item"><a href="index.html" class="nav-link">News</a></li>
-				<li class="nav-item"><a href="Lab.html" class="nav-link">Lab</a></li>
+	        	<li class="nav-item "><a href="index.html" class="nav-link">News</a></li>
+				<li class="nav-item "><a href="Lab.html" class="nav-link">Lab</a></li>
 	        	<li class="nav-item"><a href="Research.html" class="nav-link">Research</a></li>
-	        	<li class="nav-item"><a href="p-conference.html" class="nav-link">Pulications</a></li>
-				<li class="nav-item"><a href="login.html" class="nav-link">Resources</a></li>
-				<li class="nav-item active"><a href="Collaboration.html" class="nav-link">Collaboration</a></li>
+	        	<li class="nav-item "><a href="p-conference.html" class="nav-link">Pulications</a></li>
+				<li class="nav-item active"><a href="login.html" class="nav-link">Resources</a></li>
+				<li class="nav-item"><a href="Collaboration.html" class="nav-link">Collaboration</a></li>
 				<li class="nav-item"><a href="Honors.html" class="nav-link">Honors</a></li>
 				<li class="nav-item"><a href="Activities.html" class="nav-link">Activities</a></li>
 	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
@@ -49,25 +64,42 @@
 	      </div>
 	    </div>
 	  </nav>
-	<!-- END nav -->
+    <!-- END nav -->
 
- <!-- 增加 Collaborations -->
- <section class="hero-wrap hero-wrap-2 d-flex" style="background-image: url(images/intro-bg-1.jpg);">
-	<div class="overlay"></div>
-	<div class="container">
-		<div class="row d-flex align-items-center">
-			<div class="col-md-7 col-sm-12 ftco-animate text-bread d-flex align-items-center">
-				<div class="text">
-			  <h1 class="mb-3 mt-5 bread">Collaboration</h1>
+
+	<section class="hero-wrap hero-wrap-2 d-flex" style="background-image: url(images/intro-bg-1.jpg);">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row d-flex align-items-center">
+				<div class="col-md-7 col-sm-12 ftco-animate text-bread d-flex align-items-center">
+					<div class="text">
+				  <h1 class="mb-3 mt-5 bread">Resources</h1>
+			</div>
+		  </div>
+			</div>
 		</div>
-	  </div>
-		</div>
-	</div>
-</section>
+	</section>
 
-<div class="container "></div>
+	<section class="ftco-section bg-light">
+			<div class="container">
+					<div class="row justify-content-center ">
+							<div class="col-md-7 heading-section ftco-animate text-center">
+							  <h2 >為維護資源的版權，請輸入密碼，以繼續檢視頁面</h2>
+							  <br/>
+							  <br/>
+							  <br/>
+							  <form method="post" action="Resources.html" name="myform" >
+							
+					<p>請輸入密碼：<input type="password" id="password" name="password" class="loginInput"  value="" /></p>
+					<input type="image" src="images/result.png " class="loginBtn" onclick="return toopen();">            
+						 </form>			
+					 </div>	
+             </div>
+        </section>	
 
- <!-- 修改 footer -->
+
+
+  <!-- 修改 footer -->
 	<footer class="ftco-footer ftco-bg-dark ftco-section">
 		<div class="container" >
 		  <div class="row mb-5 d-flex">

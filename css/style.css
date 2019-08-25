@@ -9137,3 +9137,10 @@ section.resume-section {
     width: 40%;
     position: relative;
     }
+
+    #login{
+      float:left;
+      }
+   #login-2{
+      float:left;
+      }
