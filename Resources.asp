@@ -25,20 +25,9 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
 	<link rel="stylesheet" href="css/style.css">
-
-	<script language=javascript>
-			function toopen(){
-				if(document.getElementById("password").value=="Bioasp"){
-					document.location="Resources.asp";
-					   return true;
-					}else{
-					alert("密碼錯誤，請再輸入一次！")
-					return false;
-					}
-				}
-			</script>
-
-
+	
+	<!--載入jquery函式庫-->
+	<script type='text/javascript' src='https://code.jquery.com/jquery-1.11.3.min.js'></script>
 
   </head>
   <body>
@@ -80,25 +69,72 @@
 		</div>
 	</section>
 
-	<section class="ftco-section bg-light">
-			<div class="container">
-					<div class="row justify-content-center ">
-							<div class="col-md-7 heading-section ftco-animate text-center">
-							  <h2 >為維護資源的版權，請輸入密碼，以繼續檢視頁面</h2>
-							  <br/>
-							  <br/>
-							  <br/>
-							  <form method="post" action="Resources.asp" name="myform" >
-							
-					<p>請輸入密碼：<input type="password" id="password" name="password"   value="" /></p>
-					<input type="image" src="images/result.png " onclick="return toopen();">            
-						 </form>			
-					 </div>	
-			 </div>
-			</div>
-        </section>	
+
+ <!-- 增加 Resources -->
+		<div id="resource-main">
+			<section class="ftco-section ftco-no-pt ftco-no-pb">
+	    	<div class="container">
+	    		<div class="row d-flex">
+	    			<div class="col-xl-8 py-5 px-md-5">
+	    				<div class="row pt-md-4">
+			    			<div class="col-md-12">
+									<div class="blog-entry  d-md-flex">
+										<img src="images/resources/jonlu0602.jpg" width="170">
+										<div class="text  pl-md-4">
+							 <div class="meta-wrap">
+								<p class="meta">
+									  <span><i class="icon-folder-o mr-2"></i>Resources</span>
+				              	</p>
+			              	</div>
+				              <h4 class="mb-2"><a href="https://github.com/jonlu0602" target="_blank">jonlu0602</h4></a>
+				              <div class="meta-wrap">
+			              	</div>
+				            </div>
+						    </div>
+					        </div>
+
+							<div class="col-md-12">
+								<div class="blog-entry  d-md-flex">
+									<img src="images/resources/jerrygood0703.png" width="170">
+									<div class="text  pl-md-4">
+						 <div class="meta-wrap">
+							<p class="meta">
+								  <span><i class="icon-folder-o mr-2"></i>Resources</span>
+							  </p>
+						  </div>
+						  <h4 class="mb-2"><a href="https://github.com/jerrygood0703" target="_blank">jerrygood0703</h4></a>
+						  <div class="meta-wrap">
+						  </div>
+						</div>
+						</div>
+						</div>
+
+						<div class="col-md-12">
+							<div class="blog-entry  d-md-flex">
+								<img src="images/resources/JasonSWFu.jpg" width="170">
+								<div class="text  pl-md-4">
+					 <div class="meta-wrap">
+						<p class="meta">
+							  <span><i class="icon-folder-o mr-2"></i>Resources</span>
+						  </p>
+					  </div>
+					  <h4 class="mb-2"><a href="https://github.com/JasonSWFu" target="_blank">Szu-Wei Fu</h4></a>
+					  <div class="meta-wrap">
+					  </div>
+					</div>
+					</div>
+					</div>
 
 
+						</div><!-- END-->
+						
+			    		
+	          </div><!-- END COL -->
+	    		</div>
+	    	</div>
+	    </section>
+		</div><!-- END COLORLIB-MAIN -->
+	</div><!-- END COLORLIB-PAGE -->
 
   <!-- 修改 footer -->
 	<footer class="ftco-footer ftco-bg-dark ftco-section">
