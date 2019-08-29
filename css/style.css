@@ -7938,11 +7938,7 @@ h1, h2, h3, h4, h5,
 @media (min-width: 900px) {
   .blog-entry {
     margin-bottom: 30px; } }
-
-@media (max-width: 900px) {
-  .blog-entry {
-    margin-bottom: 30px; } }
-
+    
 .blog-entry .text {
   position: relative;
   border-top: 0;
