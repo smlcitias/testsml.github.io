@@ -190,7 +190,7 @@ table {
 caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  color: #6c757d;
+  color: #fff;
   text-align: left;
   caption-side: bottom; }
 
@@ -2048,8 +2048,8 @@ fieldset:disabled a.btn {
       box-shadow: 0 0 0 0.2rem rgba(120, 213, 239, 0.5); }
 
 .btn-secondary {
-  color: #fff;
-  background-color: #6c757d;
+  color: #000000;
+  background-color: #fff;
   border-color: #6c757d; }
   .btn-secondary:hover {
     color: #fff;
