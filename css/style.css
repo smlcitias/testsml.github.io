@@ -7983,7 +7983,13 @@ h1, h2, h3, h4, h5,
 .opentext1{
   margin: 10px;
   font-size: 13px;
-  color:#666666;  }  
+  color:#666666; 
+   }  
+
+.opentext1 a {
+  color:#666666; 
+  text-decoration:underline;
+   } 
 
 .block-27 ul {
   padding: 0;
