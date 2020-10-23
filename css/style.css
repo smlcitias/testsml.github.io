@@ -9075,7 +9075,7 @@ section.resume-section {
 
 /* line 92, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_slick-nav.scss */
 .slicknav_btn {
-  background-color: #ffffff;
+  background-color: transparent;
   cursor: pointer;
   margin-bottom: 10px;
   position: relative;
