@@ -7475,9 +7475,6 @@ h1, h2, h3, h4, h5,
       .text-bread .text .breadcrumbs span a {
         color: #fff; }
 
-.video-hero {
-  height: 750px; }
-
 .owl-carousel {
   position: relative; }
   .owl-carousel .owl-item {
@@ -8992,7 +8989,6 @@ section.resume-section {
     width: 100%;
     z-index: 9;
     background: #ff0000;
-  float: left;
   }
 }
 
@@ -9207,29 +9203,6 @@ section.resume-section {
   .header-area .main-header-area .logo-img {
     width: 70px;
   }
-}
-
-/* line 61, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_header.scss */
-.header-area .main-header-area .book_room .socail_links ul li {
-  display: inline-block;
-}
-
-/* line 64, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_header.scss */
-.header-area .main-header-area .book_room .socail_links ul li a {
-  color: #ffe100;
-  margin: 0 0px;
-  font-size: 15px;
-}
-
-/* line 68, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_header.scss */
-.header-area .main-header-area .book_room .socail_links ul li a:hover {
-  color: #fff;
-}
-
-/* line 92, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_header.scss menu字高 */
-.header-area .main-header-area .main-menu {
-  text-align: left;
-  padding: 10px 0;
 }
 
 /* line 96, ../../Arafath/CL/CL september/205. Barber/HTML/scss/_header.scss */
@@ -9490,3 +9463,300 @@ section.resume-section {
     line-height: 30px;
   }
 }
+
+
+/* line 137, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_elements.scss */
+.button-area {
+  background: #fff;
+}
+
+/* line 138, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_elements.scss */
+.button-area .border-top-generic {
+  padding: 70px 15px;
+  border-top: 1px dotted #eee;
+}
+
+/* line 146, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_elements.scss */
+.button-group-area .genric-btn {
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+/* line 149, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_elements.scss */
+.button-group-area .genric-btn:last-child {
+  margin-right: 0;
+}
+
+/* line 155, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_elements.scss */
+.genric-btn {
+  display: inline-block;
+  outline: none;
+  line-height: 40px;
+  padding: 0 30px;
+  font-size: .8em;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+/* line 166, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_elements.scss */
+.genric-btn:focus {
+  outline: none;
+}
+
+/* line 169, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_elements.scss */
+.genric-btn.e-large {
+  padding: 0 40px;
+  line-height: 50px;
+}
+
+/* line 173, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_elements.scss */
+.genric-btn.large {
+  line-height: 45px;
+}
+
+/* line 176, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_elements.scss */
+.genric-btn.medium {
+  line-height: 30px;
+}
+
+/* line 179, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_elements.scss */
+.genric-btn.small {
+  line-height: 25px;
+}
+
+/* line 182, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_elements.scss */
+.genric-btn.radius {
+  border-radius: 3px;
+}
+
+/* line 185, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_elements.scss */
+.genric-btn.circle {
+  border-radius: 20px;
+}
+
+/* line 188, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_elements.scss */
+.genric-btn.arrow {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+/* line 195, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_elements.scss */
+.genric-btn.arrow span {
+  margin-left: 10px;
+}
+
+/* line 199, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_elements.scss */
+.genric-btn.default {
+  color: #415094;
+  background: #f9f9ff;
+  border: 1px solid transparent;
+}
+
+/* line 203, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_elements.scss */
+.genric-btn.default:hover {
+  border: 1px solid #f9f9ff;
+  background: #fff;
+}
+
+/* line 208, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_elements.scss */
+.genric-btn.default-border {
+  border: 1px solid #f9f9ff;
+  background: #fff;
+}
+
+/* line 211, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_elements.scss */
+.genric-btn.default-border:hover {
+  color: #415094;
+  background: #f9f9ff;
+  border: 1px solid transparent;
+}
+
+/* line 217, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_elements.scss */
+.genric-btn.primary {
+  color: #fff;
+  background: #ff5e13;
+  border: 1px solid transparent;
+}
+
+/* line 221, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_elements.scss */
+.genric-btn.primary:hover {
+  color: #ff5e13;
+  border: 1px solid #ff5e13;
+  background: #fff;
+}
+
+/* line 227, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_elements.scss */
+.genric-btn.primary-border {
+  color: #ff5e13;
+  border: 1px solid #ff5e13;
+  background: #fff;
+}
+
+/* line 231, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_elements.scss */
+.genric-btn.primary-border:hover {
+  color: #fff;
+  background: #ff5e13;
+  border: 1px solid transparent;
+}
+
+/* line 237, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_elements.scss */
+.genric-btn.success {
+  color: #fff;
+  background: #4cd3e3;
+  border: 1px solid transparent;
+}
+
+/* line 241, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_elements.scss */
+.genric-btn.success:hover {
+  color: #4cd3e3;
+  border: 1px solid #4cd3e3;
+  background: #fff;
+}
+
+/* line 247, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_elements.scss */
+.genric-btn.success-border {
+  color: #4cd3e3;
+  border: 1px solid #4cd3e3;
+  background: #fff;
+}
+
+/* line 251, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_elements.scss */
+.genric-btn.success-border:hover {
+  color: #fff;
+  background: #4cd3e3;
+  border: 1px solid transparent;
+}
+
+/* line 257, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_elements.scss */
+.genric-btn.info {
+  color: #fff;
+  background: #38a4ff;
+  border: 1px solid transparent;
+}
+
+/* line 261, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_elements.scss */
+.genric-btn.info:hover {
+  color: #38a4ff;
+  border: 1px solid #38a4ff;
+  background: #fff;
+}
+
+/* line 267, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_elements.scss */
+.genric-btn.info-border {
+  color: #38a4ff;
+  border: 1px solid #38a4ff;
+  background: #fff;
+}
+
+/* line 271, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_elements.scss */
+.genric-btn.info-border:hover {
+  color: #fff;
+  background: #38a4ff;
+  border: 1px solid transparent;
+}
+
+/* line 277, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_elements.scss */
+.genric-btn.warning {
+  color: #fff;
+  background: #f4e700;
+  border: 1px solid transparent;
+}
+
+/* line 281, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_elements.scss */
+.genric-btn.warning:hover {
+  color: #f4e700;
+  border: 1px solid #f4e700;
+  background: #fff;
+}
+
+/* line 287, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_elements.scss */
+.genric-btn.warning-border {
+  color: #f4e700;
+  border: 1px solid #f4e700;
+  background: #fff;
+}
+
+/* line 291, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_elements.scss */
+.genric-btn.warning-border:hover {
+  color: #fff;
+  background: #f4e700;
+  border: 1px solid transparent;
+}
+
+/* line 297, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_elements.scss */
+.genric-btn.danger {
+  color: #fff;
+  background: #f44a40;
+  border: 1px solid transparent;
+}
+
+/* line 301, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_elements.scss */
+.genric-btn.danger:hover {
+  color: #f44a40;
+  border: 1px solid #f44a40;
+  background: #fff;
+}
+
+/* line 307, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_elements.scss */
+.genric-btn.danger-border {
+  color: #f44a40;
+  border: 1px solid #f44a40;
+  background: #fff;
+}
+
+/* line 311, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_elements.scss */
+.genric-btn.danger-border:hover {
+  color: #fff;
+  background: #f44a40;
+  border: 1px solid transparent;
+}
+
+/* line 317, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_elements.scss */
+.genric-btn.link {
+  color: #415094;
+  background: #f9f9ff;
+  text-decoration: underline;
+  border: 1px solid transparent;
+}
+
+/* line 322, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_elements.scss */
+.genric-btn.link:hover {
+  color: #415094;
+  border: 1px solid #f9f9ff;
+  background: #fff;
+}
+
+/* line 328, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_elements.scss */
+.genric-btn.link-border {
+  color: #415094;
+  border: 1px solid #f9f9ff;
+  background: #fff;
+  text-decoration: underline;
+}
+
+/* line 333, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_elements.scss */
+.genric-btn.link-border:hover {
+  color: #415094;
+  background: #f9f9ff;
+  border: 1px solid transparent;
+}
+
+/* line 339, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_elements.scss */
+.genric-btn.disable {
+  color: #222222, 0.3;
+  background: #f9f9ff;
+  border: 1px solid transparent;
+  cursor: not-allowed;
+}
+
+ 
