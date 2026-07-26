@@ -466,7 +466,7 @@
 
     <!-- jQuery Frameworks
     ============================================= -->
-    <script src="assets/js/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/jquery.appear.js"></script>
@@ -483,6 +483,22 @@
     <script src="assets/js/jquery.nice-select.min.js"></script>
     <script src="assets/js/loopcounter.js"></script>
     <script src="assets/js/bootsnav.js"></script>
+    <script>
+        window.addEventListener('load', function () {
+            var preloader = document.querySelector('.se-pre-con');
+            if (!preloader) return;
+            preloader.style.transition = 'opacity 0.4s ease';
+            preloader.style.opacity = '0';
+            setTimeout(function () {
+                preloader.style.display = 'none';
+            }, 400);
+        });
+
+        setTimeout(function () {
+            var preloader = document.querySelector('.se-pre-con');
+            if (preloader) preloader.style.display = 'none';
+        }, 6000); // 8 秒後強制關閉，數字可自行調整
+    </script>
     <script src="assets/js/main.js"></script>
 
 </body>

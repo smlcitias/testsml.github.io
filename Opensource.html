@@ -10,7 +10,7 @@
     <!-- ========== Page Title ========== -->
     <title>Bio-asp Lab</title>
 
-    <!-- ========== Favicon Icon titleç¬¦è?? ========== -->
+    <!-- ========== Favicon Icon titleç¬¦ï¿½?? ========== -->
     <link rel="icon" href="assets/img/logo.ico" type="image/x-icon">
     <link rel="shortcut icon" href="assets/img/logo.ico" type="image/x-icon">
 
@@ -1457,7 +1457,7 @@
                             </p>
                             <p>
                                 <i class="fas fa-map-marker-alt"></i>&nbsp; 115
-                                ?°??—å????—æ¸¯?????”ç©¶?™¢è·¯ä?Œæ®µ128???<br />ä¸­å¤®??”ç©¶?™¢è³?è¨Šç?‘æ???‰µ?–°??”ç©¶ä¸­å??ä¸‰æ??
+                                ?ï¿½ï¿½??ï¿½ï¿½????ï¿½æ¸¯?????ï¿½ç©¶?ï¿½ï¿½è·¯ï¿½?ï¿½æ®µ128???<br />ä¸­å¤®??ï¿½ç©¶?ï¿½ï¿½ï¿½?è¨Šï¿½?ï¿½ï¿½???ï¿½ï¿½?ï¿½ï¿½??ï¿½ç©¶ä¸­ï¿½??ä¸‰ï¿½??
                             </p>
                             <p>
                                 <i class="fas fa-phone-volume"></i>&nbsp; 886-2-2787-2390
@@ -1481,7 +1481,7 @@
 
     <!-- jQuery Frameworks
     ============================================= -->
-    <script src="assets/js/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/jquery.appear.js"></script>
@@ -1498,6 +1498,22 @@
     <script src="assets/js/jquery.nice-select.min.js"></script>
     <script src="assets/js/loopcounter.js"></script>
     <script src="assets/js/bootsnav.js"></script>
+    <script>
+        window.addEventListener('load', function () {
+            var preloader = document.querySelector('.se-pre-con');
+            if (!preloader) return;
+            preloader.style.transition = 'opacity 0.4s ease';
+            preloader.style.opacity = '0';
+            setTimeout(function () {
+                preloader.style.display = 'none';
+            }, 400);
+        });
+
+        setTimeout(function () {
+            var preloader = document.querySelector('.se-pre-con');
+            if (preloader) preloader.style.display = 'none';
+        }, 6000); // 8 ç§’å¾Œå¼·åˆ¶é—œé–‰ï¼Œæ•¸å­—å¯è‡ªè¡Œèª¿æ•´
+    </script>
     <script src="assets/js/main.js"></script>
 
 </body>
